@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.smoke711711/ashfields-mcp-server",
+  "title": "Ashfields MCP Server",
+  "description": "The first MCP server that burns an ERC-20 token to mint an NFT. Approve $ASH, call mint() — 100,000 tokens permanently destroyed, fully on-chain animated SVG appears on Ethereum. No ETH payment. No browser. Two contract calls from any agent.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ashfields-mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

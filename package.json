@@ -1,11 +1,12 @@
 {
   "name": "ashfields-mcp-server",
   "version": "1.0.0",
-  "description": "MCP server — autonomous Ashfields NFT minting for AI agents",
+  "mcpName": "io.github.smoke711711/ashfields-mcp-server",
+  "description": "The first MCP server that burns an ERC-20 token to mint an NFT. Approve $ASH, call mint() — 100,000 tokens permanently destroyed, fully on-chain animated SVG appears on Ethereum. No ETH payment. No browser. Two contract calls from any agent.",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "ashfields-mcp": "./index.js"
+    "ashfields-mcp-server": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
@@ -17,6 +18,28 @@
     "@modelcontextprotocol/sdk": "^1.0.4",
     "viem": "^2.21.0"
   },
-  "keywords": ["mcp", "ashfields", "nft", "ethereum", "ai-agent"],
-  "license": "MIT"
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ashfields",
+    "nft",
+    "ethereum",
+    "web3",
+    "blockchain",
+    "defi",
+    "burn-mechanic",
+    "on-chain",
+    "erc20",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smoke711711/ashfields-mcp-server"
+  },
+  "homepage": "https://ashfields-mint.vercel.app/mcp",
+  "bugs": {
+    "url": "https://github.com/smoke711711/ashfields-mcp-server/issues"
+  },
+  "author": "smoke711711"
 }
