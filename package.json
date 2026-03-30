@@ -1,0 +1,22 @@
+{
+  "name": "ashfields-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server — autonomous Ashfields NFT minting for AI agents",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ashfields-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "viem": "^2.21.0"
+  },
+  "keywords": ["mcp", "ashfields", "nft", "ethereum", "ai-agent"],
+  "license": "MIT"
+}
