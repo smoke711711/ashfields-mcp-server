@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ashfields": {
+      "command": "node",
+      "args": ["index.js"],
+      "env": {
+        "WALLET_PRIVATE_KEY": "",
+        "ETH_RPC_URL": "https://ethereum.publicnode.com"
+      }
+    }
+  }
+}
