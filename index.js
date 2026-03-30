@@ -284,7 +284,7 @@ server.setRequestHandler(CallToolRequestSchema, async (req) => {
         approvalTx:  approveHash ?? 'not needed — allowance was sufficient',
         mintTx:      mintHash,
         etherscan:   `https://etherscan.io/tx/${mintHash}`,
-        opensea:     tokenIds.map(id => `https://opensea.io/assets/ethereum/${ASHFIELDS}/${id}`),
+        opensea:     'https://opensea.io/collection/ashfields-lol',
       })
     }
 
